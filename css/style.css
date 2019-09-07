@@ -880,6 +880,7 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
+    color: #476b1b;
     max-width: 33.33333%; }
   .col-md-5 {
     -webkit-box-flex: 0;
@@ -8380,7 +8381,6 @@ h1, h2, h3, h4, h5,
               width: 80px;
               background: transparent;
               height: 140px;
-              border: 10px solid #0c8a32;
               z-index: -1; }
               @media (min-width: 992px) {
                 .owl-carousel.home-slider .slider-item .slider-text .one-forth .text:after {
