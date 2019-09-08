@@ -9195,10 +9195,21 @@ textarea.form-control {
   .person {
     margin-left: 50%;
   }
-  .landscape {
-    display: block;
-    margin: 30px auto;
+  @media (min-width: 600px) {
+    .landscape {
+      display: block;
+      margin: 30px auto;
+    }
   }
+  
+}
+.landscape {
+  height: 200px;
+  display: block;
+  margin: 30px auto;
+}
+.lightwidget-widget {
+  padding: 30px;
 }
 
 .testimony-section {
