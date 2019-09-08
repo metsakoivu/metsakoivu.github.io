@@ -9191,6 +9191,15 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+  @media (min-width: 767.98px) {
+  .person {
+    margin-left: 50%;
+  }
+  .landscape {
+    display: block;
+    margin: 30px auto;
+  }
+}
 
 .testimony-section {
   position: relative;
@@ -9323,10 +9332,10 @@ textarea.form-control {
     height: 400px;
     margin-bottom: 30px; } }
 
-.image-popup {
+/* .image-popup {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
-  cursor: zoom-in; }
+  cursor: zoom-in; } */
 
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
