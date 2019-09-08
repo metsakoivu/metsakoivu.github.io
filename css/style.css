@@ -2027,6 +2027,19 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
+.icons-1st {
+  font-size: 3rem;
+  color: #ffffff;
+  padding-bottom: 2rem;
+}
+
+.icons-vertical {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -8726,8 +8739,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-services {
   border: none;
-  background: #0c8a32;
-  background: #fe7878; }
+  background: #ABDB62; }
   .ftco-services .services {
     background: #fff;
     padding: 40px 20px;
@@ -8741,7 +8753,7 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .ftco-services .services.services-2 {
-      background: #fe7878; }
+      background: #ABDB62; }
     .ftco-services .services .icon {
       line-height: 1.3;
       position: relative;
@@ -8774,7 +8786,7 @@ h1, h2, h3, h4, h5,
     font-weight: 500; }
 
 .ftco-schedule {
-  background: #ffdddd; }
+  background: #F0FFC4; }
 
 .ftco-schedule {
   position: relative;
@@ -8813,13 +8825,13 @@ h1, h2, h3, h4, h5,
         content: '';
         border-style: solid;
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent #fe7878;
+        border-color: transparent transparent transparent #ABDB62;
         opacity: 0; }
       .ftco-schedule .nav-pills .nav-link span {
         display: block;
         font-size: 14px; }
       .ftco-schedule .nav-pills .nav-link:hover {
-        background: #fe7878;
+        background: #ABDB62;
         color: #fff; }
       .ftco-schedule .nav-pills .nav-link.active {
         color: #fff;
@@ -8829,7 +8841,7 @@ h1, h2, h3, h4, h5,
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease;
         border: 1px solid transparent;
-        background: #fe7878; }
+        background: #ABDB62; }
         .ftco-schedule .nav-pills .nav-link.active:after {
           opacity: 1; }
         @media (max-width: 767.98px) {
