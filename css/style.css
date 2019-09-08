@@ -8868,8 +8868,8 @@ h1, h2, h3, h4, h5,
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .coach-wrap .coach-img {
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 200px;
     background-position: top center;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
