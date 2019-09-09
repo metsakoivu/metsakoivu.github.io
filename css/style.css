@@ -9201,7 +9201,7 @@ textarea.form-control {
   .person {
     margin-left: 50%;
   }
-  @media (min-width: 600px) {
+  @media (min-width: 791px) {
     .landscape {
       display: block;
       margin: 30px auto;
