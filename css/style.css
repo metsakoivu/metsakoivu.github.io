@@ -9201,7 +9201,7 @@ textarea.form-control {
   .person {
     margin-left: 50%;
   }
-  @media (min-width: 791px) {
+  @media (min-width: 813px) {
     .landscape {
       display: block;
       margin: 30px auto;
@@ -9211,8 +9211,8 @@ textarea.form-control {
 }
 .landscape {
   height: 150px;
-  /* display: block; */
-  margin: 30px auto;
+  display: block; 
+  margin: 20px auto;
 }
 .lightwidget-widget {
   padding: 30px;
