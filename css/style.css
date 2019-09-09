@@ -9211,7 +9211,7 @@ textarea.form-control {
 }
 .landscape {
   height: 150px;
-  display: block;
+  /* display: block; */
   margin: 30px auto;
 }
 .lightwidget-widget {
