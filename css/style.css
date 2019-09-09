@@ -57,7 +57,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8919,7 +8921,8 @@ h1, h2, h3, h4, h5,
   @media (max-width: 767.98px) {
     .ftco-program .nav-link-wrap {
       background: #0c8a32;
-      margin-top: 20px; } }
+      margin-top: 20px; 
+      margin-bottom: 50px; } }
 
 .ftco-program .nav-pills p {
   margin-bottom: 0; }
@@ -9034,8 +9037,8 @@ textarea.form-control {
 .ftco-no-pt {
   padding-top: 0 !important; }
 
-.ftco-no-pb {
-  padding-bottom: 0 !important; }
+/* .ftco-no-pb {
+  padding-bottom: 0 !important; } */
 
 .ftco-bg-dark {
   background: #3c312e; }
@@ -9207,6 +9210,7 @@ textarea.form-control {
   @media (min-width: 767.98px) {
   .person {
     margin-left: 50%;
+    margin-bottom: 30px;
   }
   @media (min-width: 813px) {
     .landscape {
