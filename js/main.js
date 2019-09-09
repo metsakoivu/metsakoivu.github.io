@@ -65,21 +65,25 @@
 
 	var onePageClick = function() {
 
-		$(document).on('click', 'a[href*="#"]', function (event) {
+		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
 	    	event.preventDefault();
 
 	   		var href = $.attr(this, 'href');
-		
-	    $('html, body').delay(100).animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top - 80
-	    }, 1000, function() {
-			window.location.hash = href;
-			$('html, body').animate({
-				scrollTop: $(window.location.hash).offset().top - 170
-			}, 1000);
+
+	    $('html, body').animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top - 70
+	    }, 500, function() {
+	    	// window.location.hash = href;
 	    });
-		});
+		});	
 	};
+
+	function soonScroll() {
+		console.log('happen');
+		$('html, body').stop().animate({
+			scrollTop: $($(href)).offset().top - 80
+		}, 1000, 'linear')
+	}
 
 	onePageClick();
 
