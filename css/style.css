@@ -8888,8 +8888,13 @@ h1, h2, h3, h4, h5,
         margin-bottom: 10px; } }
   
   .coach-wrap a {
-    color: rgba(255, 255, 255, 0.8)
+    color: #F0FFC4;
   }
+
+  .coach-wrap a:hover {
+    color: #fff;
+  }
+
   .coach-wrap .text {
     color: #ffffff;
     width: calc(100% - 120px); }
@@ -9032,7 +9037,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9238,7 +9243,7 @@ textarea.form-control {
       padding-right: 30px;
     }
   }
-  
+
 .logo {
   background-color: #fff;
   background-blend-mode: overlay;
