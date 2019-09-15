@@ -9027,6 +9027,14 @@ textarea.form-control {
 #height100 {
   height: 100% !important; }
 
+.video-h2 {
+  margin-bottom: 0.5 rem !important;
+}
+
+.video-section {
+  background: #F0FFC4;
+}
+
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
